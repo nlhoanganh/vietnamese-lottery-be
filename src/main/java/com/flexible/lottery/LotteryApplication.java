@@ -1,0 +1,15 @@
+package com.flexible.lottery;
+
+import com.flexible.lottery.service.CrawlingService;
+import com.flexible.lottery.service.CrawlingServiceImpl;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class LotteryApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(LotteryApplication.class, args);
+    }
+
+}
